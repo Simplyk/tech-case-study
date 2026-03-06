@@ -2,6 +2,20 @@
 
 A simplified NGO fundraising platform where organizations can manage donation forms, contacts, and email campaigns. Built with Next.js and Express.
 
+## For Interviewers
+
+This repo is a **GitHub template**. To send a case study:
+
+1. **Public template** — Send candidates the repo link and ask them to click **"Use this template"** to create their own copy.
+2. **Private template** — Download a zip and email it to the candidate:
+   ```bash
+   gh api repos/your-org/tech-case-study/zipball -H "Accept: application/vnd.github+json" > case-study.zip
+   ```
+
+Candidates do the work in their own repo (or local copy) and share the link or zip back when done.
+
+---
+
 ## Getting Started
 
 **Prerequisites:** Node.js 18+ and npm
@@ -30,7 +44,7 @@ Take some time to explore the codebase and understand how each feature is built 
 
 ## Your Tasks
 
-Complete the following three tasks. For each one, create a separate branch and pull request with a clear description of your changes.
+Complete the following three tasks. Use a **separate branch for each task** so changes are easy to review independently.
 
 Use any tools you'd like, including AI assistants, documentation, or libraries.
 
@@ -40,9 +54,9 @@ Use any tools you'd like, including AI assistants, documentation, or libraries.
 
 **Bug: "My form disappeared!"**
 
-A user reported that after creating a new donation form, it does not appear on the Forms page. They can confirm the form was saved successfully because visiting the direct URL (`/forms/<id>`) shows the form with all its details. Strangely, the form eventually "reappears" on the list at some point later.
+A user reports: *"I created a new donation form but when I got back to the list, it wasn't there"*
 
-Please investigate and fix this issue. Include a brief explanation of what caused the bug in your PR description.
+Investigate and fix the issue. Include a brief explanation of the root cause in your PR description.
 
 ---
 
@@ -75,8 +89,8 @@ You are free to design the UI and choose the technical approach.
 
 - Spend roughly **2 to 3 hours** on these tasks. We value quality over quantity — it's fine if you don't finish everything.
 - Write code as you would for a real production codebase.
-- Each task should be a separate PR so we can review them independently.
-- In your PR descriptions, briefly explain your reasoning and any trade-offs you made.
+- Use a **separate branch** for each task (e.g. `task-1-bug-fix`, `task-2-contacts-search`, `task-3-dashboard`).
+- Push your branches when you're done. Brief commit messages explaining your reasoning and trade-offs are appreciated.
 
 ## Tech Stack
 
