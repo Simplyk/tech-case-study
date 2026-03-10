@@ -87,7 +87,6 @@ You are free to design the UI and choose the technical approach.
 
 ## Guidelines
 
-- Spend roughly **2 to 3 hours** on these tasks. We value quality over quantity — it's fine if you don't finish everything.
 - Write code as you would for a real production codebase.
 - Use a **separate branch** for each task (e.g. `task-1-bug-fix`, `task-2-contacts-search`, `task-3-dashboard`).
 - Push your branches when you're done. Brief commit messages explaining your reasoning and trade-offs are appreciated.
