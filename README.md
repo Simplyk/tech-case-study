@@ -50,28 +50,19 @@ Use any tools you'd like, including AI assistants, documentation, or libraries.
 
 ---
 
-### Task 1 — Feature Improvement
+### Task 1 — New Feature
 
-**Improvement: Contacts are hard to find**
+**Feature: Recurring Donations**
 
-The Contacts page currently displays all contacts in a single unsorted list. As the number of contacts grows, users need a way to quickly find who they're looking for.
-
-Add the ability to **search** contacts by name or email, and **sort** the list by name or by total donation amount. The search should update results as the user types (with reasonable debouncing).
+Organizations want to allow donors to set up monthly contributions in addition to one-time donations. You don't need to implement actual payment processing, but build everything the platform needs to support recurring donations.
 
 ---
 
-### Task 2 — New Feature
+### Task 2 — Refactoring
 
-**Feature: Organization Dashboard**
+**Improvement: Codebase Quality**
 
-Organizations have asked for a simple overview page that gives them a quick snapshot of their fundraising activity. Build a new **Dashboard** page accessible from the navigation.
-
-It should display:
-- Total amount raised across all forms
-- Number of unique donors
-- The 5 most recent donations (showing donor name, form name, amount, and date)
-
-You are free to design the UI and choose the technical approach.
+The codebase has inconsistencies and areas that could be improved. Identify a problem you think is worth addressing and refactor it. Be prepared to explain what you changed, why, and what trade-offs you considered.
 
 ---
 
