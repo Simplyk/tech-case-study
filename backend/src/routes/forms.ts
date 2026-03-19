@@ -128,7 +128,6 @@ router.delete("/:id", (req: Request, res: Response) => {
     return;
   }
 
-  db.prepare("DELETE FROM donations WHERE form_id = ?").run(req.params.id);
   db.prepare("DELETE FROM forms WHERE id = ?").run(req.params.id);
   res.status(204).send();
 });

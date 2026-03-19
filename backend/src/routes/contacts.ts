@@ -19,7 +19,7 @@ router.get("/", async (req: Request, res: Response) => {
       .select(
         "contacts.*",
         knexDb.raw("COALESCE(SUM(donations.amount), 0) as total_donated"),
-        knexDb.raw("COUNT(donations.id) as donation_count")
+        knexDb.raw("COUNT(*) as donation_count")
       )
       .leftJoin("donations", "contacts.id", "donations.contact_id")
       .groupBy("contacts.id")

@@ -44,23 +44,13 @@ Take some time to explore the codebase and understand how each feature is built 
 
 ## Your Tasks
 
-Complete the following three tasks. Use a **separate branch for each task** so changes are easy to review independently.
+Complete the following two tasks. Use a **separate branch for each task** so changes are easy to review independently.
 
 Use any tools you'd like, including AI assistants, documentation, or libraries.
 
 ---
 
-### Task 1 — Bug Fix
-
-**Bug: "My form disappeared!"**
-
-A user reports: *"I created a new donation form but when I got back to the list, it wasn't there"*
-
-Investigate and fix the issue. Include a brief explanation of the root cause in your PR description.
-
----
-
-### Task 2 — Feature Improvement
+### Task 1 — Feature Improvement
 
 **Improvement: Contacts are hard to find**
 
@@ -70,7 +60,7 @@ Add the ability to **search** contacts by name or email, and **sort** the list b
 
 ---
 
-### Task 3 — New Feature
+### Task 2 — New Feature
 
 **Feature: Organization Dashboard**
 
@@ -88,7 +78,7 @@ You are free to design the UI and choose the technical approach.
 ## Guidelines
 
 - Write code as you would for a real production codebase.
-- Use a **separate branch** for each task (e.g. `task-1-bug-fix`, `task-2-contacts-search`, `task-3-dashboard`).
+- Use a **separate branch** for each task (e.g. `task-1-contacts-search`, `task-2-dashboard`).
 - Push your branches when you're done. Brief commit messages explaining your reasoning and trade-offs are appreciated.
 
 ## Tech Stack
